@@ -176,7 +176,8 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     public_suffix (3.0.3)
-    puma (3.12.6)
+    puma (4.3.9)
+      nio4r (~> 2.0)
     rack (2.2.3)
     rack-protection (2.0.5)
       rack
@@ -332,7 +333,7 @@ DEPENDENCIES
   paperclip
   pg (>= 0.18, < 2.0)
   pry
-  puma (~> 3.12)
+  puma (~> 4.3)
   rails (~> 5.1.6, >= 5.1.6.1)
   rb-readline
   rspec-rails
